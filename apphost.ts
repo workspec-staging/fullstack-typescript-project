@@ -4,7 +4,6 @@ const builder = await createBuilder();
 
 await builder
   .addViteApp('web', './artifacts/web')
-  .withPnpm()
-  .withHttpEndpoint({ env: 'PORT' });
+  .withPnpm();
 
 await builder.build().run();

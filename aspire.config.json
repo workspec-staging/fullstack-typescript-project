@@ -8,5 +8,16 @@
   },
   "packages": {
     "Aspire.Hosting.JavaScript": "13.2.0"
+  },
+  "profiles": {
+    "https": {
+      "applicationUrl": "https://localhost:17200;http://localhost:17201",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "https://localhost:17200;http://localhost:17201",
+        "ASPIRE_DASHBOARD_OTLP_ENDPOINT_URL": "https://localhost:21200",
+        "ASPIRE_DASHBOARD_OTLP_HTTP_ENDPOINT_URL": "http://localhost:18900",
+        "ASPIRE_ALLOW_UNSECURED_TRANSPORT": "true"
+      }
+    }
   }
 }

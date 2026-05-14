@@ -12,11 +12,10 @@ A minimal Aspire TypeScript project for WorkSpec validation. Runs a Vite web app
 ## Run locally
 
 ```bash
-pnpm install
 aspire run
 ```
 
-Aspire prints the dashboard URL and the web app URL on startup. Open the web URL to see the Hello WorkSpec page.
+Aspire restores the SDK bindings, installs web app dependencies via pnpm, and starts the Vite dev server. It prints the dashboard URL and the web app URL on startup.
 
 ## What it does
 

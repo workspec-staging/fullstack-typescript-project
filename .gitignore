@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+.aspire/
+.aspire-runtime/
+.modules/
+*.log
+.DS_Store

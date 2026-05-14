@@ -6,8 +6,8 @@ let web = builder
   .addViteApp('web', './artifacts/web')
   .withPnpm();
 
-if (process.env.FLY_APP_NAME) {
-  web = web.withViteConfig('./vite.fly.config.ts');
+if (process.env.WORKSPEC) {
+  web = web.withViteConfig('./vite.workspec.config.ts');
 }
 
 await web;
